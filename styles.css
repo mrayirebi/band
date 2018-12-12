@@ -86,3 +86,27 @@ html, body {
     border-radius: 50%;
     margin: 10px;
 }
+
+.main-footer {
+    background-color: #5B6572;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav {
+    width: 30px;
+    height: 30px;
+}
