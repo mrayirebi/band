@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Handlee');
+@import url('https://fonts.googleapis.com/css?family=Handlee|Monoton');
 
 * {
     box-sizing: border-box;
@@ -52,4 +52,13 @@ html, body {
 
 .band-name {
     text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-weight: normal;
+    font-family: 'Monoton';
+    color: white;
+}
+
+.band-name-large {
+    font-size: 9em;
 }
